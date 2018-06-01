@@ -14,6 +14,7 @@ gcc -E test.c -o test.i
 [https://github.com/zinwang/MyFirstSecurity/blob/master/test.i](https://github.com/zinwang/MyFirstSecurity/blob/master/test.i)
 
 <br />
+
 編譯階段:產生組語<br />
 --------------------------------
 
@@ -140,7 +141,7 @@ gcc -S -masm=intel XXXXX.c -o XXXXX_intel.s
 ```
 gcc -S -masm=intel XXXXX.c -o XXXXX_intel_OK.s -fno-asynchronous-unwind-tables
 ```
-
+<br />
 
 組譯階段:<br />
 ----------------------------
@@ -167,10 +168,11 @@ gcc test.o -o test
 gcc test.o -o test.jpg
 ```
 
+<br />
 =============================================================================
 
 ![](https://github.com/zinwang/MyFirstSecurity/blob/master/%E6%93%B7%E5%8F%962.PNG)
 
 
-
+<br /><br />
 
