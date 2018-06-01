@@ -10,7 +10,7 @@
 ```
 gcc -E test.c -o test.i
 ```
-i的架構:<br />
+.i的架構:<br />
 [https://github.com/zinwang/MyFirstSecurity/blob/master/test.i](https://github.com/zinwang/MyFirstSecurity/blob/master/test.i)
 
 <br />
