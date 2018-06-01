@@ -12,8 +12,8 @@ i的架構:<br />
 [https://github.com/zinwang/MyFirstSecurity/blob/master/test.i](https://github.com/zinwang/MyFirstSecurity/blob/master/test.i)
 
 <br />
-編譯階段<br />
-產生組語<br />
+編譯階段:產生組語<br />
+
 ```
 gcc -S test.i -o test.s
 ```
