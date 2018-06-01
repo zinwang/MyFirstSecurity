@@ -150,6 +150,12 @@ gcc -S -masm=intel XXXXX.c -o XXXXX_intel_OK.s -fno-asynchronous-unwind-tables
 gcc -C test.s -o test.o
 ```
 <br />
+.o檔的架構:<br />
+
+[](https://github.com/zinwang/MyFirstSecurity/blob/master/object)
+
+
+<br />
 
 ![](https://github.com/zinwang/MyFirstSecurity/blob/master/%E6%93%B7%E5%8F%96.PNG)
 
