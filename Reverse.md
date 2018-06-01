@@ -161,7 +161,7 @@ gcc -C test.s -o test.o
 gcc test.o -o test
 ```
 <br />
-也可編成jpg
+也可編成jpg或exe
 
 ```
 gcc test.o -o test.jpg
