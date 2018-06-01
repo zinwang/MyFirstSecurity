@@ -152,7 +152,7 @@ gcc -C test.s -o test.o
 <br />
 .o檔的架構:<br />
 
-[](https://github.com/zinwang/MyFirstSecurity/blob/master/object)
+[https://github.com/zinwang/MyFirstSecurity/blob/master/object](https://github.com/zinwang/MyFirstSecurity/blob/master/object)
 
 
 <br />
