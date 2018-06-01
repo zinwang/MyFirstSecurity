@@ -20,6 +20,7 @@ gcc -S test.i -o test.s
 
 <br />
 .s的架構<br />
+
 ```
 	.file	"test.c"
 	.section	.rodata
