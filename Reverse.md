@@ -5,6 +5,8 @@
 <br >
 
 預處理階段
+-------------------------
+
 ```
 gcc -E test.c -o test.i
 ```
@@ -13,6 +15,7 @@ i的架構:<br />
 
 <br />
 編譯階段:產生組語<br />
+--------------------------------
 
 ```
 gcc -S test.i -o test.s
@@ -119,23 +122,49 @@ main:
 
 <br />
 
+產生AT&T語法格式的組語(gcc預設使用的格式)
+
+
+```
+gcc -S -masm=att XXXXX.c -o XXXXX_att.s
+```
+
+產生Intel語法格式的組語(微軟預設使用的格式)
+
+```
+gcc -S -masm=intel XXXXX.c -o XXXXX_intel.s
+```
+
+要去掉一堆註解:請加上參數-fno-asynchronous-unwind-tables
+
+```
+gcc -S -masm=intel XXXXX.c -o XXXXX_intel_OK.s -fno-asynchronous-unwind-tables
+```
+
+
 組譯階段:<br />
+----------------------------
+
 ```
 gcc -C test.s -o test.o
 ```
 
 
-產生AT&T語法格式的組語(gcc預設使用的格式)
+連結階段:<br />
+------------------------------
+
+```
+gcc test.o -o test
+```
+<br />
+也可編成jpg
+
+```
+gcc test.o -o test.jpg
+```
 
 
 
-gcc -S -masm=att XXXXX.c -o XXXXX_att.s
 
 
-產生Intel語法格式的組語(微軟預設使用的格式)
 
-gcc -S -masm=intel XXXXX.c -o XXXXX_intel.s
-
-要去掉一堆註解:請加上參數-fno-asynchronous-unwind-tables
-
-gcc -S -masm=intel XXXXX.c -o XXXXX_intel_OK.s -fno-asynchronous-unwind-tables
