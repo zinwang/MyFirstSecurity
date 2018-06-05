@@ -168,8 +168,9 @@ gcc -C test.s -o test.o
 gcc test.o -o test
 ```
 <br />
-也可編成jpg或exe
-
+也可編成jpg或exe<br />
+副檔名不是重點!!!!!<br />
+他還是elf執行檔
 ```
 gcc test.o -o test.jpg
 ```
