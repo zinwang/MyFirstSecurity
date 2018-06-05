@@ -171,6 +171,7 @@ gcc test.o -o test
 也可編成jpg或exe<br />
 副檔名不是重點!!!!!<br />
 他還是elf執行檔
+
 ```
 gcc test.o -o test.jpg
 ```
